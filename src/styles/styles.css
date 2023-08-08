@@ -1,35 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
-    background-color: #282c34;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
-    text-align: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: auto;
+}
+
+.main {
+  margin-top: auto;
 }
 
 .title {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .description {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.links-page-link {
+  font-size: 1.5em;
+  color: #61dafb;
+  margin-bottom: 30px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.github-icon {
+  margin-right: 5px;
+}
+
+.search-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+  width: 300px;
+}
+
+.links-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-item {
+  margin: 10px 0;
 }
 
 a {
-    color: #61dafb;
-    text-decoration: none;
+  color: #61dafb;
 }
 
 a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
