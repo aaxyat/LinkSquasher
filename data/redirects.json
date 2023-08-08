@@ -1,6 +1,7 @@
 [
     { "shortUrl": "google", "longUrl": "https://google.com" },
     { "shortUrl": "github", "longUrl": "https://github.com/aaxyat" },
-    { "shortUrl": "mainsite", "longUrl": "https://ayushb.com"}
+    { "shortUrl": "mainsite", "longUrl": "https://ayushb.com"},
+    { "shortUrl": "winsetup", "longUrl": "https://gist.githubusercontent.com/aaxyat/2464d5bacf5d5077723fc826b7e0170c/raw"}
   ]
   
