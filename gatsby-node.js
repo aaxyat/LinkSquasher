@@ -1,5 +1,5 @@
 const path = require('path');
-const redirects = require('./src/data/redirects.json');
+const redirects = require('./data/redirects.json');
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions;

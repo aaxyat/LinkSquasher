@@ -21,7 +21,7 @@ LinkSquasher is a URL shortening service that's as straightforward as it is powe
 ### Installation
 1. Clone the repo:
     ```
-    git clone https://github.com/yourusername/LinkSquasher.git
+    git clone https://github.com/aaxyat/LinkSquasher.git
     ```
 2. Install NPM packages:
     ```
@@ -29,16 +29,17 @@ LinkSquasher is a URL shortening service that's as straightforward as it is powe
     ```
 
 ### Configuration
-Edit the `links.json` file at the root of the project. The format should be:
+Edit the `redirects.json` file at the /data . The format should be:
 ```json
 {
-  "shortlink": "longlink"
+ { "shortUrl": "customname", "longUrl": "https://example.com" },
+
 }
 ```
 For example:
 ```json
 {
-  "google": "https://www.google.com"
+  { "shortUrl": "google", "longUrl": "https://google.com" }
 }
 ```
 With the above configuration, when someone navigates to `yoursite.com/google`, they will be redirected to `https://www.google.com`.
