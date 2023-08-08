@@ -47,17 +47,17 @@ With the above configuration, when someone navigates to `yoursite.com/google`, t
 
 For detailed deployment instructions on different platforms, please check the [LinkSquasher Wiki](https://github.com/aaxyat/LinkSquasher/wiki).
 
-- **Hosting on Cloudflare Pages**: Please follow the instructions on the [Cloudflare Pages deployment page](https://github.com/aaxyat/LinkSquasher/wiki/Deployment#cloudflare-pages) of the LinkSquasher Wiki.
-
-- **Hosting on GitHub Pages**: Please follow the instructions on the [GitHub Pages deployment page](https://github.com/aaxyat/LinkSquasher/wiki/Deployment#github-pages) of the LinkSquasher Wiki.
-
 - **Hosting on Netlify**: You can also deploy LinkSquasher to Netlify by clicking the button below:
 
-   \[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aaxyat/LinkSquasher)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aaxyat/LinkSquasher)
 
 - **Hosting on Vercel**: To deploy LinkSquasher to Vercel, use the following button:
 
-   \[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/aaxyat/LinkSquasher)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/aaxyat/LinkSquasher)
+
+- **Hosting on Cloudflare Pages**: Please follow the instructions on the [Cloudflare Pages deployment page](https://github.com/aaxyat/LinkSquasher/wiki/Deployment#cloudflare-pages) of the LinkSquasher Wiki.
+
+- **Hosting on GitHub Pages**: Please follow the instructions on the [GitHub Pages deployment page](https://github.com/aaxyat/LinkSquasher/wiki/Deployment#github-pages) of the LinkSquasher Wiki.
 
 - **Hosting on DigitalOcean App Platform**: Please follow the instructions on the [DigitalOcean App Platform deployment page](https://github.com/aaxyat/LinkSquasher/wiki/Deployment#digitalocean-app-platform) of the LinkSquasher Wiki.
 
