@@ -22,7 +22,7 @@ export default function Links() {
       <ul className="links-list">
         {data.allRedirectsJson.edges.map(({ node }, index) => (
           <li key={index}>
-            {node.longUrl} ---> <Link to={`/${node.shortUrl}`}>{node.shortUrl}</Link>
+            {node.longUrl} ---{">"} <Link to={`/${node.shortUrl}`}>{node.shortUrl}</Link>
           </li>
         ))}
       </ul>
